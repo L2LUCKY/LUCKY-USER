@@ -33,7 +33,7 @@ API_HASH = getenv("API_HASH", "")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 STRING_SESSION = getenv("STRING_SESSION", "")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Chiku12:Chiku12@arman.wsumgkn.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001963452122"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 
 
@@ -60,7 +60,7 @@ FLOODXD = {}
 OLD_MSG = {}
 PM_LIMIT = {}
 PLUGINS = {}
-SUDOERS = [5247304559]
+SUDOERS = []
 
 
 COMMAND_HANDLERS = []
